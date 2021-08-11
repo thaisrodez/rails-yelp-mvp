@@ -11,3 +11,11 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+// CSS models
+@import "restaurants";
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+}

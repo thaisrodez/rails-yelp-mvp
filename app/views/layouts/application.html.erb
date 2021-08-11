@@ -10,6 +10,12 @@
   </head>
 
   <body>
+  <div class="navbar navbar-light mb-3 p-3" style="background-color: white;">
+    <%= link_to 'Yelp', restaurants_path, class: "navbar-brand" %>
+    <%= link_to 'Add a restaurant', new_restaurant_path, class: "btn btn-outline-success" %>
+  </div>
+  <div class="container">
     <%= yield %>
+  </div>
   </body>
 </html>
